@@ -1,3 +1,7 @@
 [build]
   command = "npm run netlify:web:build"
   publish = "build/web"
+
+[build.environment]
+  SUPABASE_URL = "https://jlbblpmwwtbhqpigasax.supabase.co"
+  SUPABASE_SERVICE_ROLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpsYmJscG13d3RiaHFwaWdhc2F4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MjkwOTA0NiwiZXhwIjoyMDg4NDg1MDQ2fQ.3nVAY8uIl0lWbs3KQKB1GQbsDAIR19BABJXvYox5Y6A"
